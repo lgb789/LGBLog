@@ -1,6 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
+xcodeproj 'LGBLog.xcodeproj'
+
 target 'LGBLog_Example', :exclusive => true do
   pod 'LGBLog', :path => '../'
 end

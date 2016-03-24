@@ -1,0 +1,14 @@
+PODS:
+  - LGBLog (0.1.0)
+
+DEPENDENCIES:
+  - LGBLog (from `../`)
+
+EXTERNAL SOURCES:
+  LGBLog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBLog: f7601414da1b438c7b131282cef30c14ac00d177
+
+COCOAPODS: 0.39.0

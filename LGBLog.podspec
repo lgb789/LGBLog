@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "LGBLog"
   s.version          = "0.1.0"
-  s.summary          = "A short description of LGBLog."
+  s.summary          = "A Define Log."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        A Define Wrapper Of NSLog.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/LGBLog"
+  s.homepage         = "https://github.com/lgb789/LGBLog"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "lgb789" => "lgb789@126.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LGBLog.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/lgb789/LGBLog.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

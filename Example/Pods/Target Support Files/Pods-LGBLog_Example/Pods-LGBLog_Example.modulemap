@@ -1,0 +1,6 @@
+framework module Pods_LGBLog_Example {
+  umbrella header "Pods-LGBLog_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 #import "LGBViewController.h"
+#import <LGBLog.h>
 
 @interface LGBViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    DLog(@"view did load");
 }
 
 - (void)didReceiveMemoryWarning

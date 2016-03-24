@@ -1,0 +1,25 @@
+{
+  "name": "LGBLog",
+  "version": "0.1.0",
+  "summary": "A Define Log.",
+  "description": "A Define Wrapper Of NSLog.",
+  "homepage": "https://github.com/lgb789/LGBLog",
+  "license": "MIT",
+  "authors": {
+    "lgb789": "lgb789@126.com"
+  },
+  "source": {
+    "git": "https://github.com/lgb789/LGBLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "LGBLog": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
