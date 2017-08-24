@@ -3,11 +3,11 @@ use_frameworks!
 
 xcodeproj 'LGBLog.xcodeproj'
 
-target 'LGBLog_Example', :exclusive => true do
+target 'LGBLog_Example' do
   pod 'LGBLog', :path => '../'
 end
 
-target 'LGBLog_Tests', :exclusive => true do
+target 'LGBLog_Tests' do
   pod 'LGBLog', :path => '../'
 
   
