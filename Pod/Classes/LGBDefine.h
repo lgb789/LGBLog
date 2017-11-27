@@ -9,8 +9,6 @@
 #define ZA_log(fmt,...)
 #endif
 
-#define NSStringFromBool(b)             (b ? @"YES" : @"NO")
-
 #define ZA_logBounds(view)              ZA_log(@"%s bounds: %@", #view, NSStringFromCGRect([view bounds]))
 #define ZA_logFrame(view)               ZA_log(@"%s frame: %@", #view, NSStringFromCGRect([view frame]))
 #define ZA_logSize(size)                ZA_log(@"%s size: %@", #size, NSStringFromCGSize(size))
@@ -18,7 +16,7 @@
 #define ZA_logObj(obj)                  ZA_log(@"%s : %@", #obj, obj)
 #define ZA_logInteger(num)              ZA_log(@"%s : %ld", #num, (long)num)
 #define ZA_logFloat(num)                ZA_log(@"%s : %f", #num, num)
-#define ZA_logBool(num)                 ZA_log(@"%s : %@", #num, NSStringFromBool(num))
+#define ZA_logBool(num)                 ZA_log(@"%s : %@", #num, (num ? @"YES" : @"NO"))
 
 #ifdef DEBUG
 #define ZA_SHOW_VIEW_BORDERS    YES
