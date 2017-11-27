@@ -1,6 +1,6 @@
 {
   "name": "LGBLog",
-  "version": "0.1.3",
+  "version": "0.1.6",
   "summary": "A Define Log.",
   "description": "A Define Wrapper Of NSLog.",
   "homepage": "https://github.com/lgb789/LGBLog",
@@ -10,16 +10,11 @@
   },
   "source": {
     "git": "https://github.com/lgb789/LGBLog.git",
-    "tag": "0.1.3"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "6.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "LGBLog": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "source_files": "Pod/Classes/**/*"
 }

@@ -1,5 +1,5 @@
 PODS:
-  - LGBLog (0.1.3)
+  - LGBLog (0.1.6)
 
 DEPENDENCIES:
   - LGBLog (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LGBLog: d777888bd156f013879c24f28ca38daff61f1d91
+  LGBLog: 3e2e4f44a9a50deccd6e5577a317cb9c0afc6daf
 
 PODFILE CHECKSUM: 8b2789e7106d21743878fdc2674dac1c15d58e5d
 

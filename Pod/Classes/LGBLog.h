@@ -1,6 +1,6 @@
 
-#ifndef LGBDefine_h
-#define LGBDefine_h
+#ifndef LGBLog_h
+#define LGBLog_h
 
 //Log
 #ifdef DEBUG

@@ -15,4 +15,4 @@
     @import Foundation;
 #endif
 
-#import "LGBDefine.h"
+#import "LGBLog.h"
