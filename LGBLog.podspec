@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LGBLog"
-  s.version          = "0.1.8"
+  s.version          = "0.1.9"
   s.summary          = "A Define Log."
 
 # This description is used to generate tags and improve search results.

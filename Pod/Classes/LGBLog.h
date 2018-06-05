@@ -12,6 +12,7 @@
 #define ZA_logBounds(view)              ZA_log(@"%s bounds: %@", #view, NSStringFromCGRect([view bounds]))
 #define ZA_logFrame(view)               ZA_log(@"%s frame: %@", #view, NSStringFromCGRect([view frame]))
 #define ZA_logSize(size)                ZA_log(@"%s size: %@", #size, NSStringFromCGSize(size))
+#define ZA_logPoint(point)              ZA_log(@"%s point: %@", #point, NSStringFromCGPoint(point))
 #define ZA_logString(str)               ZA_log(@"%s : %@", #str, str)
 #define ZA_logObj(obj)                  ZA_log(@"%s : %@", #obj, obj)
 #define ZA_logInteger(num)              ZA_log(@"%s : %ld", #num, (long)num)
